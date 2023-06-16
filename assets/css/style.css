@@ -7,13 +7,17 @@
     margin:0px;
 }
 
+body {
+    width:1340px;
+    height:500px;
+}
+
 .menu-superior {
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
     gap:20px;
-    margin-top:30px;
-    margin-right:15px;
+    margin-top:15px;
 }
 
 .menu-conteudo {
@@ -92,6 +96,7 @@
     outline:none;
     box-shadow:none;
     border-color:transparent;
+    width:445px;
 
 }
 
@@ -112,6 +117,7 @@
     align-items:center;
     gap:5px;
     margin-top:30px;
+    margin-bottom:170px;
 }
 
 .area-check a {
@@ -122,4 +128,58 @@
 #check {
     width:47px;
     height:50px;
+}
+
+.cont-inferior {
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.cont-box1 {
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:1325px;
+    height:47px;
+    background-color:#f2f2f2;
+}
+
+.cont-box1 a {
+    font-size:15px;
+    color:#707070;
+    margin-left:30px;
+}
+
+.cont-box2 {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:1325px;
+    height:47px;
+    background-color:#f2f2f2;
+}
+
+.div1 {
+    display:flex;
+    gap:30px;
+    margin-left:30px;
+}
+
+.div1 a {
+    font-size:15px;
+    color:#707070;
+}
+
+.div2 {
+    display:flex;
+    gap:30px;
+    margin-right:-10px;
+}
+
+.div2 a {
+    font-size:15px;
+    color:#707070;
 }
