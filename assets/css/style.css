@@ -3,6 +3,7 @@
 * {
     box-sizing:border-box;
     font-family: 'Roboto', sans-serif;
+    text-decoration:none;
     margin:0px;
 }
 
@@ -22,6 +23,10 @@
     align-items:center;
     gap:15px;
     font-size:14px;
+    font-weight:400;
+}
+
+.menu-conteudo a {
     color:#707070;
 }
 
@@ -40,4 +45,81 @@
 #circulo {
     width:44px;
     height:44px;
+}
+
+.area-principal {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:100px;
+}
+
+#logo {
+    width:276px;
+    height:93px;
+}
+
+.busca {
+    display:flex;
+    justify-content:space-between;
+    width:582px;
+    height:44px;
+    border:solid 1px #e3e3e3;
+    border-radius:22px;
+    margin-top:30px;
+}
+
+.b1{
+    display:flex;
+    align-items:center;
+    margin-left:15px;
+    gap:10px;
+}
+
+.b2 {
+    display:flex;
+    align-items:center;
+    margin-right:15px;
+    gap:10px;
+}
+#lupa{
+    width:22px;
+    height:22px;
+}
+
+#txt-busca {
+    outline:none;
+    box-shadow:none;
+    border-color:transparent;
+
+}
+
+.cont {
+    width:276px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+.cont a {
+    font-size:15px;
+    color:#707070;
+}
+
+.area-check {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    margin-top:30px;
+}
+
+.area-check a {
+    font-size:14px;
+    color:#1a0dbd;
+}
+
+#check {
+    width:47px;
+    height:50px;
 }
